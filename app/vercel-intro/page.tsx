@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function VercelIntro() {
   return (
     <main className="min-h-screen bg-gray-50 p-8">
@@ -49,7 +51,9 @@ export default function VercelIntro() {
 
           {/* Back Link */}
           <div className="mt-6">
-            <a href="/" className="text-blue-500 hover:underline">← Back to all sections</a>
+            <Link href="/" className="text-blue-500 hover:underline">
+              ← Back to all sections
+            </Link>
           </div>
         </div>
       </div>
