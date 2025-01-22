@@ -17,10 +17,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-white">
       <div className="flex flex-col items-center flex-grow justify-center">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-pZL81lTC5ryrtMjrrLPxOqVBZAha8C.png"
+          src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={1200}
+          height={247}
           priority
         />
       </div>
