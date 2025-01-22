@@ -19,17 +19,17 @@ export default function VercelForUniversities() {
               Vercel is a platform that helps universities achieve better visibility in search engines and deliver
               faster loading websites. When your marketing team updates content, Vercel automatically optimizes it to
               rank better in search results and load instantly for prospective students around the world. We handle all
-              the technical details that make your university's website perform well in Google searches, like fast page
+              the technical details that make your university&apos;s website perform well in Google searches, like fast page
               loading and mobile optimization, so your team can focus on creating great content.
             </p>
-            <p className="mt-4">I'd be happy to:</p>
+            <p className="mt-4">I&apos;d be happy to:</p>
             <ul className="list-disc pl-5 space-y-2 mt-2">
-              <li>Show you our analytics dashboard where you can track your website's search performance</li>
+              <li>Show you our analytics dashboard where you can track your website&apos;s search performance</li>
               <li>Demonstrate how our platform automatically optimizes your content for search engines</li>
               <li>Walk through examples of how other organizations have improved their search rankings</li>
             </ul>
             <p className="mt-4">
-              Which aspects of search engine optimization are most important for your university's marketing goals?
+              Which aspects of search engine optimization are most important for your university&apos;s marketing goals?
             </p>
           </div>
 

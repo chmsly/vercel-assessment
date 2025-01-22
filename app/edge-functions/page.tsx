@@ -10,7 +10,9 @@ export default function PerformanceAndCost() {
           <div className="text-gray-600 mb-6">Hey Travis,</div>
 
           <div className="space-y-4 text-gray-700">
-            <p>I'm reaching out regarding your Vercel usage, as our analytics show two areas we should address:</p>
+            <p className="text-gray-700">
+              I&apos;m reaching out regarding your Vercel usage. We&apos;ve noticed that your usage has decreased significantly...
+            </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>A recent increase in data transfer costs from $900 to $2,100</li>
               <li>Core Web Vitals performance issues, specifically with Largest Contentful Paint (LCP)</li>
@@ -41,7 +43,7 @@ export default function PerformanceAndCost() {
               </ul>
             </div>
 
-            <p>Given you're in Singapore, would you be available Thursday at 9:00 AM SGT (your time) to review:</p>
+            <p>Given you&apos;re in Singapore, would you be available Thursday at 9:00 AM SGT (your time) to review:</p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Current performance metrics</li>
               <li>Implementation of image optimization</li>

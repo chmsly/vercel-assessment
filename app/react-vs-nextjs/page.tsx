@@ -26,7 +26,9 @@ export default function ReactVsNextjs() {
             </section>
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-gray-800">Next.js</h2>
-              <p className="text-gray-700">Next.js builds on top of React by adding:</p>
+              <p className="text-gray-700">
+                Here&apos;s what makes Next.js perfect for your needs:
+              </p>
               <div className="space-y-4">
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">1. Built-in performance features</h3>

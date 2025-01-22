@@ -13,15 +13,17 @@ export default function BillingExplanation() {
 
           {/* Introduction */}
           <p className="text-gray-700 mb-8">
-            I understand seeing unexpected charges can be concerning. Let me help explain what's happening with your
-            bill and provide some clear solutions.
+            Let&apos;s address your questions about MIUs and billing:
+          </p>
+          <p>
+            I understand you&apos;re seeing unexpected charges for fast origin transfer and fast data transfer, even though you haven&apos;t used all your MIUs.
           </p>
 
           {/* Main Content */}
           <div className="space-y-8">
             {/* MIUs Explanation */}
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Why didn't my MIUs cover this bill?</h2>
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Why didn&apos;t my MIUs cover this bill?</h2>
               <p className="text-gray-700">
                 I can see why this might be confusing. While your MIUs (Managed Infrastructure Units) cover compute
                 resources, Fast Origin Transfer and Fast Data Transfer are separate charges based on actual bandwidth
@@ -62,7 +64,7 @@ export default function BillingExplanation() {
             {/* Call to Action */}
             <section>
               <p className="text-gray-700">
-                 I'd be happy to help you implement these changes. Would you
+                I&apos;d be happy to help you implement these changes. Would you
                 like to schedule a call to walk through these optimizations together? We can look at your specific usage
                 patterns and create a customized plan to prevent future unexpected charges.
               </p>

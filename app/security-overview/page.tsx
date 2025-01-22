@@ -13,7 +13,7 @@ export default function SecurityOverview() {
 
           {/* Introduction */}
           <p className="text-gray-700 mb-8">
-            Here is a comprehensive overview of Vercel's security documentation and resources for your Enterprise
+            Here is a comprehensive overview of Vercel&apos;s security documentation and resources for your Enterprise
             deployment:
           </p>
 

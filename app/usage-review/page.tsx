@@ -14,27 +14,27 @@ export default function UsageReview() {
           {/* Content */}
           <div className="space-y-4 text-gray-700">
             <p>
-              I'm reaching out as I've noticed some recent changes in your team's Vercel usage that I'd like to discuss.
-              We can see there's been a reduction in builds and overall platform usage this quarter, and I understand
+              I&apos;m reaching out as I&apos;ve noticed some recent changes in your team&apos;s Vercel usage that I&apos;d like to discuss.
+              We can see there&apos;s been a reduction in builds and overall platform usage this quarter, and I understand
               that Tanner, who was leading the project, has recently left the company.
             </p>
             <p>
-              I've also noticed some build errors related to your Cloudflare configuration that we should address to
+              I&apos;ve also noticed some build errors related to your Cloudflare configuration that we should address to
               ensure your marketing pages are performing optimally.
             </p>
-            <p>Given these changes, I'd love to schedule a brief call to:</p>
+            <p>Given these changes, I&apos;d love to schedule a brief call to:</p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Review your current setup and address any technical challenges</li>
               <li>Share best practices for Cloudflare integration with Vercel</li>
               <li>Connect any new team members with our platform resources</li>
-              <li>Discuss how we can better support your marketing team's goals</li>
+              <li>Discuss how we can better support your marketing team&apos;s goals</li>
             </ul>
             <p>
-              Being your only developer, I know your time is valuable. I'm happy to help address the Cloudflare
+              Being your only developer, I know your time is valuable. I&apos;m happy to help address the Cloudflare
               integration challenges.
             </p>
             <p>
-              Would you have 30 minutes this week for a quick discussion? We want to ensure you're getting the most
+              Would you have 30 minutes this week for a quick discussion? We want to ensure you&apos;re getting the most
               value from your Vercel investment.
             </p>
           </div>
