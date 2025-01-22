@@ -22,6 +22,9 @@ export default function VercelForUniversities() {
               the technical details that make your university&apos;s website perform well in Google searches, like fast page
               loading and mobile optimization, so your team can focus on creating great content.
             </p>
+            <p className="mt-4">
+              Here&apos;s what makes Vercel perfect for your university&apos;s needs...
+            </p>
             <p className="mt-4">I&apos;d be happy to:</p>
             <ul className="list-disc pl-5 space-y-2 mt-2">
               <li>Show you our analytics dashboard where you can track your website&apos;s search performance</li>

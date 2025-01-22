@@ -10,8 +10,8 @@ export default function PerformanceAndCost() {
           <div className="text-gray-600 mb-6">Hey Travis,</div>
 
           <div className="space-y-4 text-gray-700">
-            <p>
-              I&apos;m reaching out regarding your Vercel usage. We&apos;ve noticed some areas that need attention:
+            <p className="text-gray-700">
+              I&apos;m reaching out regarding your Vercel usage...
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>A recent increase in data transfer costs from $900 to $2,100</li>
@@ -44,7 +44,7 @@ export default function PerformanceAndCost() {
             </div>
 
             <p>
-              Given you&apos;re in Singapore, would you be available Thursday at 9:00 AM SGT (your time) to review:
+              Given you&apos;re in Singapore...
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Current performance metrics</li>
