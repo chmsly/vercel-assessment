@@ -3,14 +3,14 @@ import Image from "next/image"
 
 export default function Home() {
   const questions = [
-    { text: "QUESTION 1", href: "/react-vs-nextjs" },
-    { text: "QUESTION 2", href: "/edge-functions" },
-    { text: "QUESTION 3", href: "/usage-review" },
-    { text: "QUESTION 4", href: "/vercel-for-universities" },
-    { text: "QUESTION 5", href: "/performance-and-cost" },
-    { text: "QUESTION 6", href: "/billing-explanation" },
-    { text: "QUESTION 7", href: "/security-overview" },
-    { text: "QUESTION 8", href: "/question-8" },
+    { text: "React vs Next.js", href: "/react-vs-nextjs" },
+    { text: "Edge Functions", href: "/edge-functions" },
+    { text: "Usage Review", href: "/usage-review" },
+    { text: "Vercel for Universities", href: "/vercel-for-universities" },
+    { text: "Performance and Cost", href: "/performance-and-cost" },
+    { text: "Billing Explanation", href: "/billing-explanation" },
+    { text: "Security Overview", href: "/security-overview" },
+    { text: "Question 8", href: "/question-8" },
   ]
 
   return (
