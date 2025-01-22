@@ -95,7 +95,7 @@ export default function PerformanceAndCost() {
             <Link href="/" className="text-blue-500 hover:text-blue-600">
               ← Back to all questions
             </Link>
-            <Link href="/billing-explanation" className="text-blue-500 hover:text-blue-600">
+            <Link href="/usage-review" className="text-blue-500 hover:text-blue-600">
               Next Question →
             </Link>
           </div>
