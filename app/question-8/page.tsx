@@ -5,50 +5,23 @@ export default function Question8() {
     <main className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h1 className="text-2xl font-bold text-gray-800 mb-6">Exercise Feedback</h1>
+          {/* Header */}
+          <h1 className="text-2xl font-bold text-gray-800 mb-6">Time Allocation Framework</h1>
 
-          <div className="space-y-6">
-            <section>
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Suggested Improvements</h2>
-              <div className="space-y-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Time Management</h3>
-                  <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                    <li>Consider breaking the exercise into smaller, timed segments</li>
-                    <li>Provide estimated time for each question</li>
-                    <li>Allow partial submissions for time-constrained candidates</li>
-                  </ul>
-                </div>
-
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Technical Setup</h3>
-                  <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                    <li>Include a pre-configured template with basic routing</li>
-                    <li>Provide TypeScript types for common components</li>
-                    <li>Add example responses for reference</li>
-                  </ul>
-                </div>
-
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold mb-2">Documentation</h3>
-                  <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                    <li>Link directly to relevant Vercel documentation for each question</li>
-                    <li>Include more real-world scenarios and examples</li>
-                    <li>Add guidelines for tone and communication style</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">Additional Suggestions</h2>
-              <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                <li>Include more diverse customer scenarios</li>
-                <li>Add interactive components to demonstrate technical skills</li>
-                <li>Incorporate accessibility requirements</li>
-                <li>Add section for handling customer escalations</li>
-              </ul>
-            </section>
+          {/* Content */}
+          <div className="space-y-6 text-gray-700">
+            <p>Providing a time allocation framework would have been helpful. For example:</p>
+            <ul className="list-disc pl-5 space-y-4">
+              <li>
+                <span className="font-semibold">Thirty minutes</span> for initial setup
+              </li>
+              <li>
+                <span className="font-semibold">One hour</span> for technical implementation
+              </li>
+              <li>
+                <span className="font-semibold">Ninety minutes</span> for crafting responses
+              </li>
+            </ul>
           </div>
 
           {/* Navigation */}
