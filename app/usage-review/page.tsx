@@ -13,7 +13,7 @@ export default function UsageReview() {
 
           {/* Content */}
           <div className="space-y-4 text-gray-700">
-            <p>
+            <p className="text-gray-700">
               I&apos;m reaching out as I&apos;ve noticed some recent changes in your team&apos;s Vercel usage that I&apos;d like to discuss.
               We can see there&apos;s been a reduction in builds and overall platform usage this quarter, and I understand
               that Tanner, who was leading the project, has recently left the company.

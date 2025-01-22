@@ -15,7 +15,7 @@ export default function BillingExplanation() {
           <p className="text-gray-700 mb-8">
             Let&apos;s address your questions about MIUs and billing:
           </p>
-          <p>
+          <p className="text-gray-700">
             I understand you&apos;re seeing unexpected charges for fast origin transfer and fast data transfer, even though you haven&apos;t used all your MIUs.
           </p>
 
