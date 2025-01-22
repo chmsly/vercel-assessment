@@ -14,7 +14,9 @@ export default function UsageReview() {
           {/* Content */}
           <div className="space-y-4 text-gray-700">
             <p className="text-gray-700">
-              I&apos;m reaching out as I&apos;ve noticed some recent changes in your team&apos;s Vercel usage that I&apos;d like to discuss...
+              I&apos;m reaching out as I&apos;ve noticed some recent changes in your team&apos;s Vercel usage that I&apos;d like to discuss.
+              We can see there&apos;s been a reduction in builds and overall platform usage this quarter, and I understand
+              that Tanner has recently left the company.
             </p>
             <p>
               I&apos;ve also noticed some build errors related to your Cloudflare configuration that we should address to
