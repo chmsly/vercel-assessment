@@ -30,7 +30,6 @@ export default function BillingExplanation() {
                 usage through our Edge Network. Think of it like a phone plan where your monthly fee covers calls, but
                 data usage is billed separately.
               </p>
-              <p className="text-xs text-gray-400 mt-2">Source: Vercel Payments and Billing Documentation</p>
             </section>
 
             {/* Mitigation Strategies */}
@@ -58,7 +57,6 @@ export default function BillingExplanation() {
                   </ul>
                 </div>
               </div>
-              <p className="text-xs text-gray-400 mt-2">Source: Vercel Edge Network Features Documentation</p>
             </section>
 
             {/* Call to Action */}
