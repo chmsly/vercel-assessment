@@ -30,7 +30,7 @@ export default function Home() {
           <div key={index} className="text-base w-[22%]">
             <Link 
               href={question.href} 
-              className="font-semibold hover:text-blue-600 text-blue-500"
+              className="font-semibold hover:text-gray-700 text-black"
             >
               {question.text} →
             </Link>
