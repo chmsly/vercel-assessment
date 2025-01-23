@@ -103,14 +103,15 @@ export default function SecurityOverview() {
           <div className="mt-8">
             <p className="text-gray-700">Below is a quick video recapping these features:</p>
             <div className="aspect-w-16 aspect-h-9 mt-4">
-              <iframe
-                src="https://www.youtube.com/embed/PB-i-IhtgoE?si=Gu55hUyWVRNSvTFr"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/PB-i-IhtgoE?si=Gu55hUyWVRNSvTFr" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen
-                className="w-full h-full"
-                title="YouTube video player"
-                referrerPolicy="strict-origin-when-cross-origin"
               ></iframe>
             </div>
           </div>
