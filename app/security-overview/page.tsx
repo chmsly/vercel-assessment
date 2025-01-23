@@ -99,22 +99,16 @@ export default function SecurityOverview() {
             </section>
           </div>
 
-          {/* Video Recap */}
+          {/* Video Link */}
           <div className="mt-8">
-            <p className="text-gray-700">Below is a quick video recapping these features:</p>
-            <div className="relative w-full aspect-video">
-              <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/PB-i-IhtgoE?si=Gu55hUyWVRNSvTFr" 
-                title="YouTube video player" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerPolicy="strict-origin-when-cross-origin" 
-                allowFullScreen
-                className="absolute top-0 left-0 w-full h-full"
-              ></iframe>
-            </div>
+            <a 
+              href="https://www.youtube.com/watch?v=PB-i-IhtgoE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              Watch this Security Overview →
+            </a>
           </div>
 
           {/* Call to Action */}
