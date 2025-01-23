@@ -28,7 +28,10 @@ export default function Home() {
       <div className="w-full flex flex-wrap justify-between gap-y-6 mb-8">
         {questions.map((question, index) => (
           <div key={index} className="text-base w-[22%]">
-            <Link href={question.href} className="font-semibold hover:underline text-gray-700">
+            <Link 
+              href={question.href} 
+              className="font-semibold hover:text-blue-600 text-blue-500"
+            >
               {question.text} →
             </Link>
           </div>
