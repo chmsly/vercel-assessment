@@ -102,7 +102,7 @@ export default function SecurityOverview() {
           {/* Video Recap */}
           <div className="mt-8">
             <p className="text-gray-700">Below is a quick video recapping these features:</p>
-            <div className="aspect-w-16 aspect-h-9 mt-4">
+            <div className="relative w-full aspect-video">
               <iframe 
                 width="560" 
                 height="315" 
@@ -112,6 +112,7 @@ export default function SecurityOverview() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
               ></iframe>
             </div>
           </div>
